@@ -22,6 +22,6 @@ class MainViewViewModel: ObservableObject {
     }
     
     public var isSignedIn: Bool {
-        return Auth.auth().currentUser != nil
+        return Auth.auth().currentUser != nil && !currentUserId.isEmpty
     }
 }

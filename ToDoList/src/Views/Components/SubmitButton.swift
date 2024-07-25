@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FormSubmitButtonView: View {
+struct SubmitButton: View {
     let title: String
     let backgroundColor: Color
     let action: () -> Void
@@ -30,7 +30,7 @@ struct FormSubmitButtonView: View {
 }
 
 #Preview {
-    FormSubmitButtonView(
+    SubmitButton(
         title: "title",
         backgroundColor: .blue
     ) {

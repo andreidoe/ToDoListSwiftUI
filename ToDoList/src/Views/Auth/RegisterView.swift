@@ -30,7 +30,7 @@ struct RegisterView: View {
                 SecureField("Password", text: $viewModel.password)
                     .textFieldStyle(DefaultTextFieldStyle())
                 
-                FormSubmitButtonView(title: "Sign Up", backgroundColor: .green) {
+                SubmitButton(title: "Sign Up", backgroundColor: .green) {
                     viewModel.register()
                 }
             }

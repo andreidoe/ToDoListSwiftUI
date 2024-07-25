@@ -33,7 +33,7 @@ struct LoginView: View {
                             .foregroundColor(.red)
                     }
                     
-                    FormSubmitButtonView(title: "Log In", backgroundColor: .blue) {
+                    SubmitButton(title: "Log In", backgroundColor: .blue) {
                         viewModel.login()
                     }
                 }
