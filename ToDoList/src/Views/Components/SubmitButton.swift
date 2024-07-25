@@ -7,13 +7,14 @@
 
 import SwiftUI
 
-struct FormSubmitButtonView: View {
+struct SubmitButton: View {
     let title: String
     let backgroundColor: Color
+    let action: () -> Void
     
     var body: some View {
         Button {
-            // Attempt tp login
+            action()
         } label: {
             ZStack {
                 RoundedRectangle(cornerRadius: 10)
@@ -24,12 +25,15 @@ struct FormSubmitButtonView: View {
                     .bold()
             }
         }
+        .padding()
     }
 }
 
 #Preview {
-    FormSubmitButtonView(
+    SubmitButton(
         title: "title",
         backgroundColor: .blue
-    )
+    ) {
+        //
+    }
 }

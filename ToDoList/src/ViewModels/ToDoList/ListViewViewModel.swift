@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class ListViewViewModel: ObservableObject {
+    @Published var showCreateItemView = false
+    
+    init() {}
+    
+}

@@ -23,7 +23,7 @@
 		C1DF76372C512B9A00311EDC /* CreateItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF76362C512B9A00311EDC /* CreateItemView.swift */; };
 		C1DF76392C512BA500311EDC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF76382C512BA500311EDC /* LoginView.swift */; };
 		C1DF763C2C512BCD00311EDC /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF763B2C512BCD00311EDC /* RegisterView.swift */; };
-		C1DF763F2C512C7500311EDC /* ToDoListItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF763E2C512C7500311EDC /* ToDoListItemsView.swift */; };
+		C1DF763F2C512C7500311EDC /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF763E2C512C7500311EDC /* ListView.swift */; };
 		C1DF76412C512D3600311EDC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF76402C512D3600311EDC /* User.swift */; };
 		C1DF76432C512D4500311EDC /* ToDoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF76422C512D4500311EDC /* ToDoListModel.swift */; };
 		C1DF76452C512DA600311EDC /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF76442C512DA600311EDC /* MainViewViewModel.swift */; };
@@ -32,9 +32,11 @@
 		C1DF764B2C512DD700311EDC /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF764A2C512DD700311EDC /* RegisterViewViewModel.swift */; };
 		C1DF764D2C512DE800311EDC /* ItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF764C2C512DE800311EDC /* ItemViewViewModel.swift */; };
 		C1DF764F2C512DF400311EDC /* CreateItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF764E2C512DF400311EDC /* CreateItemViewModel.swift */; };
-		C1DF76512C512E0200311EDC /* ToDoListItemsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF76502C512E0200311EDC /* ToDoListItemsViewViewModel.swift */; };
+		C1DF76512C512E0200311EDC /* ListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF76502C512E0200311EDC /* ListViewViewModel.swift */; };
 		C1DF76572C51343300311EDC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF76562C51343300311EDC /* HeaderView.swift */; };
-		C1DF765A2C522C7500311EDC /* FormSubmitButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF76592C522C7500311EDC /* FormSubmitButtonView.swift */; };
+		C1DF765A2C522C7500311EDC /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF76592C522C7500311EDC /* SubmitButton.swift */; };
+		C1DF765D2C5250F000311EDC /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF765C2C5250F000311EDC /* Validator.swift */; };
+		C1DF765F2C525F2500311EDC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF765E2C525F2500311EDC /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +73,7 @@
 		C1DF76362C512B9A00311EDC /* CreateItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemView.swift; sourceTree = "<group>"; };
 		C1DF76382C512BA500311EDC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		C1DF763B2C512BCD00311EDC /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
-		C1DF763E2C512C7500311EDC /* ToDoListItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemsView.swift; sourceTree = "<group>"; };
+		C1DF763E2C512C7500311EDC /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		C1DF76402C512D3600311EDC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C1DF76422C512D4500311EDC /* ToDoListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListModel.swift; sourceTree = "<group>"; };
 		C1DF76442C512DA600311EDC /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
@@ -80,9 +82,11 @@
 		C1DF764A2C512DD700311EDC /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		C1DF764C2C512DE800311EDC /* ItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewViewModel.swift; sourceTree = "<group>"; };
 		C1DF764E2C512DF400311EDC /* CreateItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemViewModel.swift; sourceTree = "<group>"; };
-		C1DF76502C512E0200311EDC /* ToDoListItemsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemsViewViewModel.swift; sourceTree = "<group>"; };
+		C1DF76502C512E0200311EDC /* ListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewViewModel.swift; sourceTree = "<group>"; };
 		C1DF76562C51343300311EDC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-		C1DF76592C522C7500311EDC /* FormSubmitButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSubmitButtonView.swift; sourceTree = "<group>"; };
+		C1DF76592C522C7500311EDC /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
+		C1DF765C2C5250F000311EDC /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		C1DF765E2C525F2500311EDC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +177,7 @@
 			children = (
 				C1DF76582C522C3200311EDC /* Components */,
 				C1DF76552C512E7600311EDC /* Profile */,
-				C1DF763D2C512C1600311EDC /* App */,
+				C1DF763D2C512C1600311EDC /* ToDoList */,
 				C1DF763A2C512BAF00311EDC /* Auth */,
 				C1DF75FC2C510DF200311EDC /* MainView.swift */,
 			);
@@ -185,7 +189,7 @@
 			children = (
 				C1DF76542C512E6A00311EDC /* Profile */,
 				C1DF76532C512E4E00311EDC /* Auth */,
-				C1DF76522C512E4A00311EDC /* App */,
+				C1DF76522C512E4A00311EDC /* ToDoList */,
 				C1DF76442C512DA600311EDC /* MainViewViewModel.swift */,
 			);
 			path = ViewModels;
@@ -212,6 +216,7 @@
 		C1DF76312C5125EF00311EDC /* src */ = {
 			isa = PBXGroup;
 			children = (
+				C1DF765B2C5250BD00311EDC /* Utility */,
 				C1DF75FA2C510DF200311EDC /* Application.swift */,
 				C1DF762D2C51248800311EDC /* Views */,
 				C1DF762E2C51249500311EDC /* ViewModels */,
@@ -229,24 +234,24 @@
 			path = Auth;
 			sourceTree = "<group>";
 		};
-		C1DF763D2C512C1600311EDC /* App */ = {
+		C1DF763D2C512C1600311EDC /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
 				C1DF76342C512B8500311EDC /* ItemView.swift */,
 				C1DF76362C512B9A00311EDC /* CreateItemView.swift */,
-				C1DF763E2C512C7500311EDC /* ToDoListItemsView.swift */,
+				C1DF763E2C512C7500311EDC /* ListView.swift */,
 			);
-			path = App;
+			path = ToDoList;
 			sourceTree = "<group>";
 		};
-		C1DF76522C512E4A00311EDC /* App */ = {
+		C1DF76522C512E4A00311EDC /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
 				C1DF764C2C512DE800311EDC /* ItemViewViewModel.swift */,
 				C1DF764E2C512DF400311EDC /* CreateItemViewModel.swift */,
-				C1DF76502C512E0200311EDC /* ToDoListItemsViewViewModel.swift */,
+				C1DF76502C512E0200311EDC /* ListViewViewModel.swift */,
 			);
-			path = App;
+			path = ToDoList;
 			sourceTree = "<group>";
 		};
 		C1DF76532C512E4E00311EDC /* Auth */ = {
@@ -278,9 +283,18 @@
 			isa = PBXGroup;
 			children = (
 				C1DF76562C51343300311EDC /* HeaderView.swift */,
-				C1DF76592C522C7500311EDC /* FormSubmitButtonView.swift */,
+				C1DF76592C522C7500311EDC /* SubmitButton.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		C1DF765B2C5250BD00311EDC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C1DF765C2C5250F000311EDC /* Validator.swift */,
+				C1DF765E2C525F2500311EDC /* Extensions.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -423,24 +437,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1DF76392C512BA500311EDC /* LoginView.swift in Sources */,
-				C1DF765A2C522C7500311EDC /* FormSubmitButtonView.swift in Sources */,
+				C1DF765A2C522C7500311EDC /* SubmitButton.swift in Sources */,
 				C1DF76572C51343300311EDC /* HeaderView.swift in Sources */,
 				C1DF75FD2C510DF200311EDC /* MainView.swift in Sources */,
 				C1DF76452C512DA600311EDC /* MainViewViewModel.swift in Sources */,
 				C1DF764F2C512DF400311EDC /* CreateItemViewModel.swift in Sources */,
 				C1DF76332C512B6500311EDC /* ProfileView.swift in Sources */,
-				C1DF76512C512E0200311EDC /* ToDoListItemsViewViewModel.swift in Sources */,
+				C1DF76512C512E0200311EDC /* ListViewViewModel.swift in Sources */,
 				C1DF76432C512D4500311EDC /* ToDoListModel.swift in Sources */,
 				C1DF76472C512DC100311EDC /* ProfileViewViewModel.swift in Sources */,
 				C1DF764B2C512DD700311EDC /* RegisterViewViewModel.swift in Sources */,
 				C1DF76492C512DD000311EDC /* LoginViewViewModel.swift in Sources */,
+				C1DF765D2C5250F000311EDC /* Validator.swift in Sources */,
+				C1DF765F2C525F2500311EDC /* Extensions.swift in Sources */,
 				C1DF763C2C512BCD00311EDC /* RegisterView.swift in Sources */,
 				C1DF75FB2C510DF200311EDC /* Application.swift in Sources */,
 				C1DF76412C512D3600311EDC /* User.swift in Sources */,
 				C1DF764D2C512DE800311EDC /* ItemViewViewModel.swift in Sources */,
 				C1DF76352C512B8500311EDC /* ItemView.swift in Sources */,
 				C1DF76372C512B9A00311EDC /* CreateItemView.swift in Sources */,
-				C1DF763F2C512C7500311EDC /* ToDoListItemsView.swift in Sources */,
+				C1DF763F2C512C7500311EDC /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
