@@ -35,6 +35,8 @@
 		C1DF76512C512E0200311EDC /* ToDoListItemsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF76502C512E0200311EDC /* ToDoListItemsViewViewModel.swift */; };
 		C1DF76572C51343300311EDC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF76562C51343300311EDC /* HeaderView.swift */; };
 		C1DF765A2C522C7500311EDC /* FormSubmitButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF76592C522C7500311EDC /* FormSubmitButtonView.swift */; };
+		C1DF765D2C5250F000311EDC /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF765C2C5250F000311EDC /* Validator.swift */; };
+		C1DF765F2C525F2500311EDC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF765E2C525F2500311EDC /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		C1DF76502C512E0200311EDC /* ToDoListItemsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemsViewViewModel.swift; sourceTree = "<group>"; };
 		C1DF76562C51343300311EDC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		C1DF76592C522C7500311EDC /* FormSubmitButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSubmitButtonView.swift; sourceTree = "<group>"; };
+		C1DF765C2C5250F000311EDC /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		C1DF765E2C525F2500311EDC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +216,7 @@
 		C1DF76312C5125EF00311EDC /* src */ = {
 			isa = PBXGroup;
 			children = (
+				C1DF765B2C5250BD00311EDC /* Utility */,
 				C1DF75FA2C510DF200311EDC /* Application.swift */,
 				C1DF762D2C51248800311EDC /* Views */,
 				C1DF762E2C51249500311EDC /* ViewModels */,
@@ -281,6 +286,15 @@
 				C1DF76592C522C7500311EDC /* FormSubmitButtonView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		C1DF765B2C5250BD00311EDC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C1DF765C2C5250F000311EDC /* Validator.swift */,
+				C1DF765E2C525F2500311EDC /* Extensions.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,6 +448,8 @@
 				C1DF76472C512DC100311EDC /* ProfileViewViewModel.swift in Sources */,
 				C1DF764B2C512DD700311EDC /* RegisterViewViewModel.swift in Sources */,
 				C1DF76492C512DD000311EDC /* LoginViewViewModel.swift in Sources */,
+				C1DF765D2C5250F000311EDC /* Validator.swift in Sources */,
+				C1DF765F2C525F2500311EDC /* Extensions.swift in Sources */,
 				C1DF763C2C512BCD00311EDC /* RegisterView.swift in Sources */,
 				C1DF75FB2C510DF200311EDC /* Application.swift in Sources */,
 				C1DF76412C512D3600311EDC /* User.swift in Sources */,
